@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Router>
         <Routes>
+           <Route path="/" element={<Ofertas />} />
           <Route path="/ofertas" element={<Ofertas />} />
           <Route path="*" element={<div>404 - Página não encontrada</div>} />
         </Routes>
